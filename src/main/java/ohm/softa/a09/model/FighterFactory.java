@@ -61,7 +61,6 @@ public final class FighterFactory {
 
 	// Flyweight pattern
 	private Map<String, Image> cache = new HashMap<>();
-	private final ClassLoader classLoader = ClassLoader.getSystemClassLoader();
 
 	private Image getImage(String path) {
 		// adds image if it isn't already in the cache
